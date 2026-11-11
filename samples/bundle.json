@@ -1,0 +1,11 @@
+{
+  "name": "可穿戴离线资料的嵌套列式编码与投影读取",
+  "files": [
+    {
+      "path": "schemas.json"
+    },
+    {
+      "path": "records.json"
+    }
+  ]
+}

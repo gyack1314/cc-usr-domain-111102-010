@@ -1,0 +1,57 @@
+[
+  {
+    "id": "r1",
+    "nights": null
+  },
+  {
+    "id": "r2",
+    "nights": []
+  },
+  {
+    "id": "r3",
+    "nights": [
+      null
+    ]
+  },
+  {
+    "id": "r4",
+    "nights": [
+      {}
+    ]
+  },
+  {
+    "id": "r5",
+    "nights": [
+      {
+        "label": "合成夜",
+        "segments": [
+          null,
+          [],
+          [
+            null,
+            1,
+            -1,
+            9223372036854775807
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "r6",
+    "nights": [
+      {
+        "label": null,
+        "segments": []
+      },
+      {
+        "label": "",
+        "segments": [
+          [
+            0
+          ]
+        ]
+      }
+    ]
+  }
+]

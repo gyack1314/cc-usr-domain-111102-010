@@ -1,0 +1,49 @@
+[
+  {
+    "id": "sleep",
+    "schema": {
+      "name": "root",
+      "kind": "struct",
+      "nullable": false,
+      "fields": [
+        {
+          "name": "id",
+          "kind": "string",
+          "nullable": false
+        },
+        {
+          "name": "nights",
+          "kind": "list",
+          "nullable": true,
+          "element": {
+            "name": "item",
+            "kind": "struct",
+            "nullable": true,
+            "fields": [
+              {
+                "name": "label",
+                "kind": "string",
+                "nullable": true
+              },
+              {
+                "name": "segments",
+                "kind": "list",
+                "nullable": true,
+                "element": {
+                  "name": "item",
+                  "kind": "list",
+                  "nullable": true,
+                  "element": {
+                    "name": "item",
+                    "kind": "int64",
+                    "nullable": true
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]
